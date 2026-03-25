@@ -59,18 +59,18 @@ export default function Hero({ titulo, subtitulo, mostrarBeneficios = true, ciud
 
           {/* Beneficios */}
           {mostrarBeneficios && (
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
-              <div className="flex items-center justify-center gap-3 bg-white/10 rounded-xl px-4 py-3">
-                <CheckCircle className="w-6 h-6 text-accent-400" />
-                <span className="font-semibold">Presupuesto Gratis</span>
+            <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto px-4">
+              <div className="flex items-center gap-2 bg-white/10 rounded-full px-5 py-2.5 whitespace-nowrap">
+                <CheckCircle className="w-5 h-5 text-accent-400 flex-shrink-0" />
+                <span className="font-semibold text-sm sm:text-base">Presupuesto Gratis</span>
               </div>
-              <div className="flex items-center justify-center gap-3 bg-white/10 rounded-xl px-4 py-3">
-                <Shield className="w-6 h-6 text-accent-400" />
-                <span className="font-semibold">Garantía 2 Años</span>
+              <div className="flex items-center gap-2 bg-white/10 rounded-full px-5 py-2.5 whitespace-nowrap">
+                <Shield className="w-5 h-5 text-accent-400 flex-shrink-0" />
+                <span className="font-semibold text-sm sm:text-base">Garantía 2 Años</span>
               </div>
-              <div className="flex items-center justify-center gap-3 bg-white/10 rounded-xl px-4 py-3">
-                <Clock className="w-6 h-6 text-accent-400" />
-                <span className="font-semibold">Urgencias 24h</span>
+              <div className="flex items-center gap-2 bg-white/10 rounded-full px-5 py-2.5 whitespace-nowrap">
+                <Clock className="w-5 h-5 text-accent-400 flex-shrink-0" />
+                <span className="font-semibold text-sm sm:text-base">Urgencias 24h</span>
               </div>
             </div>
           )}
